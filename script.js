@@ -1,4 +1,4 @@
-const BITLY_API_ACCESS_TOKEN = process.env.BITLY_TOKEN
+const BITLY_API_ACCESS_TOKEN = YOUR_ACCES_TOKEN
 const inputForm = document.querySelector('.input--form input')
 const formButton = document.querySelector('.input button')
 const result = document.querySelector('.response--p')
