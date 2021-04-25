@@ -1,4 +1,4 @@
-const BITLY_API_ACCESS_TOKEN = 'YOUR_API' // Paste your bitly token here!!!
+const BITLY_API_ACCESS_TOKEN = process.env.BITLY_TOKEN
 const inputForm = document.querySelector('.input--form input')
 const formButton = document.querySelector('.input button')
 const result = document.querySelector('.response--p')
